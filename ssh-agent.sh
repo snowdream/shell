@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# use ssh-agent with ssh autologin without password.
+# use ssh-agent to login into ssh server without password.
 
 if [ -f ~/.agent.env ] ; then
     . ~/.agent.env > /dev/null
